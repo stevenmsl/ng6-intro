@@ -1,4 +1,13 @@
 # Ng6Intro
+Learn Angular 6
+## Installing CLI
+Run the following in the command prompt:
+npm install -g @angular/cli
+
+## Creating Project
+Run the following command in the command prompt:
+ng new ng6-proj --style=scss --routing
+If you encounter any error while creating project, remove and reinstall CLI again
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
