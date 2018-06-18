@@ -7,6 +7,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { PostsComponent } from './posts/posts.component';
 import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
+import { HttpClientModule} from '@angular/common/http'; //Import this module to use HttpClient
 
 @NgModule({
   declarations: [
@@ -18,7 +19,12 @@ import { DetailsComponent } from './details/details.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    /*
+      You also need to specify the HttpClientModule here to use HttpClient
+      Not sure what you don’t need to specify anything in the providers array for DI to work
+    */
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
