@@ -5,11 +5,19 @@ Run the following in the command prompt:
 npm install -g @angular/cli
 
 ## Creating Project
-Run the following command in the command prompt:
+Run the following command in the command prompt to create project:
 ng new ng6-proj --style=scss --routing
 If you encounter any error while creating project, remove and reinstall CLI again
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+## Animations
+Run the following command in the command prompt to install animations:
+npm install @angular/animations@6.0.3 --save
+
+## Build project
+Run the following command to build the project. “dist” folder will be created.
+ng build 
+Run the following command to further reduce the size of the “dist” folder
+ng build --prod
 
 ## Development server
 
